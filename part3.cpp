@@ -149,10 +149,5 @@ int main() {
     std::cout << "Echecs tau5             : " << echecs_tau5 << "\n";
     std::cout << "Occupe / Creux          : 59 / 21 sur 80\n";
 
-    std::cout << "\nConclusion :\n";
-    std::cout << "  Relacher tau5 ne reduit pas l'attente totale par rapport a l'EDF de base.\n";
-    std::cout << "  tau5 est courte (C=2) et s'inserait bien naturellement dans le schedule.\n";
-    std::cout << "  En la deprioritisant, elle attend plus longtemps et degrade l'attente totale.\n";
-
     return 0;
 }
